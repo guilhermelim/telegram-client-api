@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "telegram-client-api"
+version = "0.1.0"
+description = "App client telegram api"
+authors = ["Guilherme Lima <guilhermem.lima@outlook.com>"]
+
+[tool.poetry.scripts]
+app = 'telegram_client_api:main'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-decouple = "^3.6"
+Telethon = "^1.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+yapf = "^0.32.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
