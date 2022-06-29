@@ -59,7 +59,7 @@ git clone https://github.com/guilhermelim/telegram-client-api.git
 cd telegram-client-api
 cp .env.local .env              # Edite seu .env e insira suas credenciais API_ID e API_HASH.
 poetry install --no-dev         # Instala todos os pacotes necessários do projeto
-poetry run app                  # Executa o Projeto
+poetry run start                # Executa o Projeto
 
 # Na primeira execução é necessário fazer login em sua conta do Telegram.
 # O bot irá criar um arquivo (anon.session) registrando a sua sessão de login. 
