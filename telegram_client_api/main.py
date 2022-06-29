@@ -37,7 +37,7 @@ app = FastAPI()
 @app.get("/")
 async def root():
     # return await getUsername()
-    return await get_dialogs()
+    return await getUsername_2()
 
 # Run the API server
 def start():
